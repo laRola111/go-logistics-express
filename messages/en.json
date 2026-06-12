@@ -1,0 +1,153 @@
+{
+  "nav": {
+    "inicio": "Home",
+    "servicios": "Services",
+    "promocion": "Promotion",
+    "cobertura": "Coverage",
+    "nosotros": "About",
+    "contacto": "Contact",
+    "cta": "Schedule Pickup"
+  },
+  "hero": {
+    "badge": "Reliable International Logistics",
+    "headline1": "Connecting Texas",
+    "headline2": "with Nicaragua",
+    "headline3": "and Venezuela",
+    "subheadline": "Package pickup, heavy cargo, and international shipping with speed, security, and trust.",
+    "cta_primary": "Schedule Pickup",
+    "cta_secondary": "See Promotion",
+    "scroll": "Scroll"
+  },
+  "promo": {
+    "badge": "Limited Time Offer",
+    "title": "SEND 4 BOXES AND GET THE 5TH SMALL FOR FREE",
+    "subtitle": "Take advantage of this exclusive promotion. Save on every international shipment.",
+    "box1_label": "Box 1",
+    "box2_label": "Box 2",
+    "box3_label": "Box 3",
+    "box4_label": "Box 4",
+    "box5_label": "Box 5",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "xlarge": "Extra Large",
+    "free": "FREE!",
+    "cta": "Claim This Promotion",
+    "note": "* Valid for shipments to Nicaragua and Venezuela. Terms and conditions apply."
+  },
+  "stats": {
+    "packages": "Packages Delivered",
+    "satisfaction": "Satisfied Customers",
+    "security": "Shipping Security",
+    "support": "Personalized Support"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete international logistics solutions designed for your peace of mind.",
+    "s1_title": "International Shipping",
+    "s1_desc": "We connect Texas with Nicaragua and Venezuela with efficiency and security in every package.",
+    "s2_title": "Heavy Cargo",
+    "s2_desc": "We transport large volumes with specialized fleet and real-time tracking.",
+    "s3_title": "Texas Pickup",
+    "s3_desc": "We pick up your package directly at your home or business anywhere in Texas.",
+    "s4_title": "Shipping to Nicaragua",
+    "s4_desc": "Direct and secure service to Nicaragua with optimized delivery times.",
+    "s5_title": "Shipping to Venezuela",
+    "s5_desc": "Reliable shipments to Venezuela with specialized handling and personalized care.",
+    "s6_title": "Guaranteed Security",
+    "s6_desc": "Every shipment is protected and tracked from origin to final destination."
+  },
+  "coverage": {
+    "title": "Our Texas Coverage",
+    "subtitle": "We operate in the major cities across Texas. Your package, picked up at your door.",
+    "hover_time": "Estimated time: 24-48h",
+    "coverage_label": "Coverage available"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "A simple, transparent process designed for your convenience.",
+    "step1_title": "Request Pickup",
+    "step1_desc": "Contact us via WhatsApp or our form. We respond in minutes.",
+    "step2_title": "We Pick Up in Texas",
+    "step2_desc": "Our team goes directly to your Texas address to collect your package.",
+    "step3_title": "Process & Sort",
+    "step3_desc": "We review, pack, and sort your package with maximum care and professionalism.",
+    "step4_title": "Ship to Destination",
+    "step4_desc": "Your package heads to Nicaragua or Venezuela with tracking at all times.",
+    "step5_title": "Safe Delivery",
+    "step5_desc": "Your package arrives safely to your loved ones. Mission accomplished."
+  },
+  "gallery": {
+    "title": "How We Work",
+    "subtitle": "Real, professional, quality logistics in every operation."
+  },
+  "whyUs": {
+    "title": "Why Choose Us?",
+    "subtitle": "Over 5,000 packages delivered back us up. Your trust is our greatest motivation.",
+    "r1": "Guaranteed Trust",
+    "r2": "Security in every shipment",
+    "r3": "Fast deliveries",
+    "r4": "Professional tracking",
+    "r5": "Personalized service",
+    "r6": "International experience"
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Families and businesses that trust GO Logistics Express to connect with their loved ones.",
+    "t1_name": "María González",
+    "t1_city": "Austin, TX",
+    "t1_text": "Excellent service. They shipped my mom's boxes to Nicaragua and they arrived perfectly and in record time. Highly recommended!",
+    "t2_name": "Carlos Rodríguez",
+    "t2_city": "San Antonio, TX",
+    "t2_text": "The 5th box free promotion saved me a lot of money. The process was super easy and the service was very professional.",
+    "t3_name": "Ana Pérez",
+    "t3_city": "Houston, TX",
+    "t3_text": "I've been shipping with them to Venezuela for years. Never had a problem. They are serious, punctual and very attentive.",
+    "t4_name": "Roberto Martínez",
+    "t4_city": "Dallas, TX",
+    "t4_text": "They picked up at my house on time and tracking was impeccable. My family received everything in perfect condition.",
+    "t5_name": "Lourdes Herrera",
+    "t5_city": "Irving, TX",
+    "t5_text": "The best shipping service I've found in Texas. Fair prices and top-notch service. I recommend them 100%!"
+  },
+  "contact": {
+    "title": "Request Your Pickup",
+    "subtitle": "Fill out the form and our team will contact you within 2 hours.",
+    "name": "Full name",
+    "phone": "Phone number",
+    "city": "City in Texas",
+    "type": "Shipment type",
+    "type_placeholder": "Select type",
+    "type_small": "Small Box",
+    "type_medium": "Medium Box",
+    "type_large": "Large Box",
+    "type_xlarge": "Extra Large Box",
+    "type_cargo": "Heavy Cargo",
+    "message": "Message or additional instructions",
+    "submit": "Request Pickup",
+    "success_title": "Request Sent!",
+    "success_msg": "Our team will contact you within 2 hours. Thank you for trusting GO Logistics!",
+    "required": "This field is required",
+    "phone_invalid": "Enter a valid phone number"
+  },
+  "finalCta": {
+    "title": "Your cargo deserves to arrive safely.",
+    "subtitle": "We handle the entire process so you don't have to worry.",
+    "cta_primary": "Schedule Your Pickup Today",
+    "cta_whatsapp": "Call Now"
+  },
+  "footer": {
+    "tagline": "Connecting families across borders with security and trust.",
+    "services_title": "Services",
+    "coverage_title": "Texas Coverage",
+    "contact_title": "Contact",
+    "rights": "All rights reserved.",
+    "created_by": "Created by",
+    "s1": "International Shipping",
+    "s2": "Heavy Cargo",
+    "s3": "Texas Pickup",
+    "s4": "Shipping to Nicaragua",
+    "s5": "Shipping to Venezuela",
+    "phone": "(813) 862-6936"
+  }
+}
