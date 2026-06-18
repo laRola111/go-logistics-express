@@ -78,6 +78,12 @@
     "contact_cta": "Request a Quote",
     "barrel_desc": "Ideal for high-volume shipments to Nicaragua and Venezuela.",
     "popular": "Most Popular",
+    "adv1_title": "SECURE SHIPMENTS",
+    "adv1_desc": "Your cargo in the best hands",
+    "adv2_title": "PROFESSIONAL HANDLING",
+    "adv2_desc": "Care in every detail",
+    "adv3_title": "FAST DELIVERIES",
+    "adv3_desc": "We deliver trust",
     "standard_boxes": [
       { "size": "Small",       "price": "$60",  "highlight": false },
       { "size": "Medium",      "price": "$120", "highlight": true  },

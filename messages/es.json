@@ -78,6 +78,12 @@
     "contact_cta": "Solicitar Cotización",
     "barrel_desc": "Ideal para envíos de alto volumen hacia Nicaragua y Venezuela.",
     "popular": "Más Popular",
+    "adv1_title": "ENVÍOS SEGUROS",
+    "adv1_desc": "Tu carga en las mejores manos",
+    "adv2_title": "MANEJO PROFESIONAL",
+    "adv2_desc": "Cuidado en cada detalle",
+    "adv3_title": "ENVÍOS RÁPIDOS",
+    "adv3_desc": "Entregamos confianza",
     "standard_boxes": [
       { "size": "Small",       "price": "$60",  "highlight": false },
       { "size": "Medium",      "price": "$120", "highlight": true  },
