@@ -73,7 +73,7 @@ export default function FinalCTA() {
               ★
             </motion.span>
           ))}
-          <span className="text-white/50 text-sm ml-2">5,000+ clientes satisfechos</span>
+          <span className="text-white/50 text-sm ml-2">{t('customers')}</span>
         </motion.div>
 
         {/* Headline */}
@@ -147,7 +147,7 @@ export default function FinalCTA() {
           transition={{ delay: 0.9, duration: 0.6 }}
           className="mt-10 flex flex-wrap items-center justify-center gap-6"
         >
-          {['🔒 Envíos Seguros', '⚡ Respuesta en 2 Horas', '🇳🇮 Nicaragua', '🇻🇪 Venezuela'].map(item => (
+          {[t('trust1'), t('trust2'), t('trust3'), t('trust4')].map(item => (
             <div key={item} className="text-white/40 text-sm font-medium">
               {item}
             </div>

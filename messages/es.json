@@ -3,6 +3,7 @@
     "inicio": "Inicio",
     "servicios": "Servicios",
     "promocion": "Promoción",
+    "precios": "Precios",
     "cobertura": "Cobertura",
     "nosotros": "Nosotros",
     "contacto": "Contacto",
@@ -33,7 +34,11 @@
     "xlarge": "Extra Large",
     "free": "¡GRATIS!",
     "cta": "Quiero Aprovechar la Promoción",
-    "note": "* Válido para envíos a Nicaragua y Venezuela. Consulta términos y condiciones."
+    "note": "* Válido para envíos a Nicaragua y Venezuela. Consulta términos y condiciones.",
+    "summary_label": "Total 4 cajas",
+    "savings_label": "+ 5ta Gratis",
+    "savings_amount": "($60 ahorro)",
+    "more_savings": "↓ más cajas, más ahorro"
   },
   "stats": {
     "packages": "Paquetes Entregados",
@@ -42,6 +47,7 @@
     "support": "Atención Personalizada"
   },
   "services": {
+    "badge": "Logística Internacional",
     "title": "Nuestros Servicios",
     "subtitle": "Soluciones completas de logística internacional diseñadas para tu tranquilidad.",
     "s1_title": "Envíos Internacionales",
@@ -57,13 +63,58 @@
     "s6_title": "Seguridad Garantizada",
     "s6_desc": "Cada envío está protegido y rastreado desde el origen hasta su destino final."
   },
+  "pricing": {
+    "badge": "Tarifas Transparentes",
+    "title": "Precios de Referencia",
+    "subtitle": "Precios claros y justos para todos nuestros servicios de envío internacional.",
+    "standard_title": "Cajas Estándar",
+    "custom_title": "Cajas por Medida",
+    "barrel_title": "Barriles",
+    "promo_note": "¡Recuerda! Envía 4 cajas y la 5ta Small es totalmente GRATIS.",
+    "promo_cta": "Ver Promoción",
+    "size_label": "Tamaño",
+    "price_label": "Precio",
+    "dimensions_label": "Medidas (pulg.)",
+    "contact_cta": "Solicitar Cotización",
+    "barrel_desc": "Ideal para envíos de alto volumen hacia Nicaragua y Venezuela.",
+    "popular": "Más Popular",
+    "standard_boxes": [
+      { "size": "Small",       "price": "$60",  "highlight": false },
+      { "size": "Medium",      "price": "$120", "highlight": true  },
+      { "size": "Large",       "price": "$170", "highlight": false },
+      { "size": "Extra Large", "price": "$240", "highlight": false }
+    ],
+    "custom_boxes": [
+      { "dims": "20×20×20", "price": "$150" },
+      { "dims": "22×22×22", "price": "$185" },
+      { "dims": "24×24×24", "price": "$215" },
+      { "dims": "30×30×30", "price": "$370" },
+      { "dims": "36×22×22", "price": "$265" },
+      { "dims": "36×36×36", "price": "$310" },
+      { "dims": "48×48×48", "price": "$450" }
+    ]
+  },
   "coverage": {
     "title": "Nuestra Cobertura en Texas",
     "subtitle": "Operamos en las principales ciudades del estado de Texas. Tu paquete, recogido en tu puerta.",
     "hover_time": "Tiempo estimado: 24-48h",
-    "coverage_label": "Cobertura disponible"
+    "coverage_label": "Cobertura disponible",
+    "legend_covered": "Ciudad cubierta",
+    "legend_hover": "Al pasar el cursor",
+    "legend_count": "9 ciudades",
+    "city_dallas": "Área Metropolitana DFW",
+    "city_irving": "DFW Metroplex",
+    "city_houston": "Mayor ciudad de Texas",
+    "city_austin": "Capital del Estado",
+    "city_san_antonio": "Sur de Texas",
+    "city_round_rock": "Norte de Austin",
+    "city_georgetown": "Williamson County",
+    "city_san_marcos": "Área de Austin",
+    "city_pflugerville": "Travis County"
   },
   "howItWorks": {
+    "badge": "Proceso Simple",
+    "step_label": "Paso",
     "title": "Cómo Funciona",
     "subtitle": "Un proceso simple, transparente y diseñado para tu comodidad.",
     "step1_title": "Solicita tu Recolección",
@@ -82,6 +133,7 @@
     "subtitle": "Logística real, profesional y de calidad en cada operación."
   },
   "whyUs": {
+    "badge": "Nuestra Diferencia",
     "title": "¿Por Qué Elegirnos?",
     "subtitle": "Más de 5,000 paquetes entregados nos respaldan. Tu confianza es nuestra mayor motivación.",
     "r1": "Confianza Garantizada",
@@ -111,11 +163,13 @@
     "t5_text": "El mejor servicio de envíos que he encontrado en Texas. Precios justos y atención de primera. ¡Los recomiendo al 100%!"
   },
   "contact": {
+    "badge": "Recolección Rápida",
     "title": "Solicita tu Recolección",
     "subtitle": "Completa el formulario y nuestro equipo te contactará en menos de 2 horas.",
     "name": "Nombre completo",
     "phone": "Teléfono",
     "city": "Ciudad en Texas",
+    "city_placeholder": "Selecciona tu ciudad",
     "type": "Tipo de envío",
     "type_placeholder": "Selecciona el tipo",
     "type_small": "Small Box",
@@ -124,17 +178,30 @@
     "type_xlarge": "Extra Large Box",
     "type_cargo": "Carga Pesada",
     "message": "Mensaje o instrucciones adicionales",
+    "message_placeholder": "Cuéntanos más sobre tu envío...",
     "submit": "Solicitar Recolección",
+    "submitting": "Enviando...",
+    "new_request": "Nueva solicitud",
     "success_title": "¡Solicitud Enviada!",
     "success_msg": "Nuestro equipo te contactará en menos de 2 horas. ¡Gracias por confiar en GO Logistics!",
     "required": "Este campo es requerido",
-    "phone_invalid": "Ingresa un número de teléfono válido"
+    "phone_invalid": "Ingresa un número de teléfono válido",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_cta": "Escríbenos ahora",
+    "phone_label": "Teléfono",
+    "promo_reminder_title": "¡Recuerda la Promoción!",
+    "promo_reminder_body": "Envía 4 cajas y la 5ta Small es GRATIS. Mencionalo en tu mensaje."
   },
   "finalCta": {
     "title": "Tu carga merece llegar segura.",
     "subtitle": "Nos encargamos del proceso completo para que tú no tengas que preocuparte.",
     "cta_primary": "Agenda tu Recolección Hoy",
-    "cta_whatsapp": "Llamar Ahora"
+    "cta_whatsapp": "Llamar Ahora",
+    "customers": "5,000+ clientes satisfechos",
+    "trust1": "🔒 Envíos Seguros",
+    "trust2": "⚡ Respuesta en 2 Horas",
+    "trust3": "🇳🇮 Nicaragua",
+    "trust4": "🇻🇪 Venezuela"
   },
   "footer": {
     "tagline": "Conectando familias a través de las fronteras con seguridad y confianza.",
@@ -143,6 +210,7 @@
     "contact_title": "Contacto",
     "rights": "Todos los derechos reservados.",
     "created_by": "Creado por",
+    "cta": "Agenda tu Recolección",
     "s1": "Envíos Internacionales",
     "s2": "Carga Pesada",
     "s3": "Recolección en Texas",

@@ -12,6 +12,7 @@ const navLinks = [
   { key: 'inicio', href: '#inicio' },
   { key: 'servicios', href: '#servicios' },
   { key: 'promocion', href: '#promocion' },
+  { key: 'precios', href: '#precios' },
   { key: 'cobertura', href: '#cobertura' },
   { key: 'nosotros', href: '#nosotros' },
   { key: 'contacto', href: '#contacto' },

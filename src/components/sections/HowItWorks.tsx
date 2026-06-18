@@ -41,7 +41,7 @@ export default function HowItWorks() {
             style={{ background: 'rgba(11,46,99,0.08)', color: '#0B2E63', border: '1px solid rgba(11,46,99,0.1)' }}
           >
             <CheckCircle2 size={14} />
-            Proceso Simple
+            {t('badge')}
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#111827] mb-4 text-balance">
             {t('title')}
@@ -95,7 +95,7 @@ export default function HowItWorks() {
                         className="text-xs font-bold tracking-widest uppercase"
                         style={{ color: step.color }}
                       >
-                        Paso {step.number}
+                        {t('step_label')} {step.number}
                       </span>
                     </div>
                     <h3 className="font-bold text-[#111827] text-lg mb-1">

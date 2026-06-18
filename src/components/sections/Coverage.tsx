@@ -22,19 +22,19 @@ interface City {
   name: string;
   lat: number;
   lon: number;
-  description: string;
+  descKey: string;
 }
 
 const texasCities: City[] = [
-  { name: 'Dallas',      lat: 32.7767, lon: -96.7970, description: 'Área Metropolitana DFW' },
-  { name: 'Irving',      lat: 32.8140, lon: -96.9489, description: 'DFW Metroplex' },
-  { name: 'Houston',     lat: 29.7604, lon: -95.3698, description: 'Mayor ciudad de Texas' },
-  { name: 'Austin',      lat: 30.2672, lon: -97.7431, description: 'Capital del Estado' },
-  { name: 'San Antonio', lat: 29.4241, lon: -98.4936, description: 'Sur de Texas' },
-  { name: 'Round Rock',  lat: 30.5083, lon: -97.6789, description: 'Norte de Austin' },
-  { name: 'Georgetown',  lat: 30.6327, lon: -97.6772, description: 'Williamson County' },
-  { name: 'San Marcos',  lat: 29.8827, lon: -97.9411, description: 'Área de Austin' },
-  { name: 'Pflugerville',lat: 30.4385, lon: -97.6200, description: 'Travis County' },
+  { name: 'Dallas',      lat: 32.7767, lon: -96.7970, descKey: 'city_dallas' },
+  { name: 'Irving',      lat: 32.8140, lon: -96.9489, descKey: 'city_irving' },
+  { name: 'Houston',     lat: 29.7604, lon: -95.3698, descKey: 'city_houston' },
+  { name: 'Austin',      lat: 30.2672, lon: -97.7431, descKey: 'city_austin' },
+  { name: 'San Antonio', lat: 29.4241, lon: -98.4936, descKey: 'city_san_antonio' },
+  { name: 'Round Rock',  lat: 30.5083, lon: -97.6789, descKey: 'city_round_rock' },
+  { name: 'Georgetown',  lat: 30.6327, lon: -97.6772, descKey: 'city_georgetown' },
+  { name: 'San Marcos',  lat: 29.8827, lon: -97.9411, descKey: 'city_san_marcos' },
+  { name: 'Pflugerville',lat: 30.4385, lon: -97.6200, descKey: 'city_pflugerville' },
 ];
 
 // SVG dimensions
@@ -222,7 +222,7 @@ export default function Coverage() {
                     <div>
                       <div className="font-semibold text-sm">{city.name}, TX</div>
                       <div className={`text-xs ${isHovered ? 'text-white/70' : 'text-gray-400'}`}>
-                        {city.description}
+                        {t(city.descKey as never)}
                       </div>
                     </div>
                     <CheckCircle
@@ -273,7 +273,7 @@ export default function Coverage() {
                   className="absolute top-4 left-1/2 -translate-x-1/2 z-30 bg-white rounded-xl px-4 py-3 shadow-xl text-center min-w-[160px]"
                 >
                   <div className="font-black text-[#0B2E63] text-sm">{hoveredCity.name}, TX</div>
-                  <div className="text-gray-500 text-xs mt-0.5">{hoveredCity.description}</div>
+                  <div className="text-gray-500 text-xs mt-0.5">{t(hoveredCity.descKey as never)}</div>
                   <div className="text-green-500 text-xs flex items-center justify-center gap-1 mt-1">
                     <CheckCircle size={10} />
                     {t('coverage_label')}
@@ -396,13 +396,13 @@ export default function Coverage() {
               <div className="relative z-10 flex items-center gap-5 mt-3 pt-3 border-t border-white/10">
                 <div className="flex items-center gap-2 text-white/50 text-xs">
                   <div className="w-2.5 h-2.5 rounded-full bg-white" />
-                  Ciudad cubierta
+                  {t('legend_covered')}
                 </div>
                 <div className="flex items-center gap-2 text-white/50 text-xs">
                   <div className="w-2.5 h-2.5 rounded-full bg-[#D72638]" />
-                  Al pasar el cursor
+                  {t('legend_hover')}
                 </div>
-                <div className="ml-auto text-white/30 text-xs font-mono">9 ciudades</div>
+                <div className="ml-auto text-white/30 text-xs font-mono">{t('legend_count')}</div>
               </div>
             </div>
           </motion.div>

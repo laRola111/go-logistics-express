@@ -3,6 +3,7 @@
     "inicio": "Home",
     "servicios": "Services",
     "promocion": "Promotion",
+    "precios": "Pricing",
     "cobertura": "Coverage",
     "nosotros": "About",
     "contacto": "Contact",
@@ -33,7 +34,11 @@
     "xlarge": "Extra Large",
     "free": "FREE!",
     "cta": "Claim This Promotion",
-    "note": "* Valid for shipments to Nicaragua and Venezuela. Terms and conditions apply."
+    "note": "* Valid for shipments to Nicaragua and Venezuela. Terms and conditions apply.",
+    "summary_label": "Total 4 boxes",
+    "savings_label": "+ 5th Free",
+    "savings_amount": "($60 savings)",
+    "more_savings": "↓ more boxes, more savings"
   },
   "stats": {
     "packages": "Packages Delivered",
@@ -42,6 +47,7 @@
     "support": "Personalized Support"
   },
   "services": {
+    "badge": "International Logistics",
     "title": "Our Services",
     "subtitle": "Complete international logistics solutions designed for your peace of mind.",
     "s1_title": "International Shipping",
@@ -57,13 +63,58 @@
     "s6_title": "Guaranteed Security",
     "s6_desc": "Every shipment is protected and tracked from origin to final destination."
   },
+  "pricing": {
+    "badge": "Transparent Pricing",
+    "title": "Reference Prices",
+    "subtitle": "Clear and fair prices for all our international shipping services.",
+    "standard_title": "Standard Boxes",
+    "custom_title": "Custom Size Boxes",
+    "barrel_title": "Barrels",
+    "promo_note": "Remember! Send 4 boxes and the 5th Small is completely FREE.",
+    "promo_cta": "See Promotion",
+    "size_label": "Size",
+    "price_label": "Price",
+    "dimensions_label": "Dimensions (in.)",
+    "contact_cta": "Request a Quote",
+    "barrel_desc": "Ideal for high-volume shipments to Nicaragua and Venezuela.",
+    "popular": "Most Popular",
+    "standard_boxes": [
+      { "size": "Small",       "price": "$60",  "highlight": false },
+      { "size": "Medium",      "price": "$120", "highlight": true  },
+      { "size": "Large",       "price": "$170", "highlight": false },
+      { "size": "Extra Large", "price": "$240", "highlight": false }
+    ],
+    "custom_boxes": [
+      { "dims": "20×20×20", "price": "$150" },
+      { "dims": "22×22×22", "price": "$185" },
+      { "dims": "24×24×24", "price": "$215" },
+      { "dims": "30×30×30", "price": "$370" },
+      { "dims": "36×22×22", "price": "$265" },
+      { "dims": "36×36×36", "price": "$310" },
+      { "dims": "48×48×48", "price": "$450" }
+    ]
+  },
   "coverage": {
     "title": "Our Texas Coverage",
     "subtitle": "We operate in the major cities across Texas. Your package, picked up at your door.",
     "hover_time": "Estimated time: 24-48h",
-    "coverage_label": "Coverage available"
+    "coverage_label": "Coverage available",
+    "legend_covered": "Covered city",
+    "legend_hover": "On hover",
+    "legend_count": "9 cities",
+    "city_dallas": "DFW Metropolitan Area",
+    "city_irving": "DFW Metroplex",
+    "city_houston": "Largest city in Texas",
+    "city_austin": "State Capital",
+    "city_san_antonio": "South Texas",
+    "city_round_rock": "North of Austin",
+    "city_georgetown": "Williamson County",
+    "city_san_marcos": "Austin Area",
+    "city_pflugerville": "Travis County"
   },
   "howItWorks": {
+    "badge": "Simple Process",
+    "step_label": "Step",
     "title": "How It Works",
     "subtitle": "A simple, transparent process designed for your convenience.",
     "step1_title": "Request Pickup",
@@ -82,6 +133,7 @@
     "subtitle": "Real, professional, quality logistics in every operation."
   },
   "whyUs": {
+    "badge": "Our Difference",
     "title": "Why Choose Us?",
     "subtitle": "Over 5,000 packages delivered back us up. Your trust is our greatest motivation.",
     "r1": "Guaranteed Trust",
@@ -111,11 +163,13 @@
     "t5_text": "The best shipping service I've found in Texas. Fair prices and top-notch service. I recommend them 100%!"
   },
   "contact": {
+    "badge": "Fast Pickup",
     "title": "Request Your Pickup",
     "subtitle": "Fill out the form and our team will contact you within 2 hours.",
     "name": "Full name",
     "phone": "Phone number",
     "city": "City in Texas",
+    "city_placeholder": "Select your city",
     "type": "Shipment type",
     "type_placeholder": "Select type",
     "type_small": "Small Box",
@@ -124,17 +178,30 @@
     "type_xlarge": "Extra Large Box",
     "type_cargo": "Heavy Cargo",
     "message": "Message or additional instructions",
+    "message_placeholder": "Tell us more about your shipment...",
     "submit": "Request Pickup",
+    "submitting": "Sending...",
+    "new_request": "New request",
     "success_title": "Request Sent!",
     "success_msg": "Our team will contact you within 2 hours. Thank you for trusting GO Logistics!",
     "required": "This field is required",
-    "phone_invalid": "Enter a valid phone number"
+    "phone_invalid": "Enter a valid phone number",
+    "whatsapp_label": "WhatsApp",
+    "whatsapp_cta": "Message us now",
+    "phone_label": "Phone",
+    "promo_reminder_title": "Remember the Promotion!",
+    "promo_reminder_body": "Send 4 boxes and the 5th Small is FREE. Mention it in your message."
   },
   "finalCta": {
     "title": "Your cargo deserves to arrive safely.",
     "subtitle": "We handle the entire process so you don't have to worry.",
     "cta_primary": "Schedule Your Pickup Today",
-    "cta_whatsapp": "Call Now"
+    "cta_whatsapp": "Call Now",
+    "customers": "5,000+ satisfied customers",
+    "trust1": "🔒 Secure Shipments",
+    "trust2": "⚡ Response in 2 Hours",
+    "trust3": "🇳🇮 Nicaragua",
+    "trust4": "🇻🇪 Venezuela"
   },
   "footer": {
     "tagline": "Connecting families across borders with security and trust.",
@@ -143,6 +210,7 @@
     "contact_title": "Contact",
     "rights": "All rights reserved.",
     "created_by": "Created by",
+    "cta": "Schedule Pickup",
     "s1": "International Shipping",
     "s2": "Heavy Cargo",
     "s3": "Texas Pickup",

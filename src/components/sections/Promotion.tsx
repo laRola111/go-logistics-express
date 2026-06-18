@@ -235,7 +235,7 @@ export default function Promotion() {
           {/* Arrow separator for mobile */}
           <div className="flex sm:hidden justify-center items-center gap-3 my-4">
             <div className="flex-1 h-px bg-white/10" />
-            <span className="text-white/30 text-sm">↓ más cajas más ahorro</span>
+            <span className="text-white/30 text-sm">{t('more_savings')}</span>
             <div className="flex-1 h-px bg-white/10" />
           </div>
 
@@ -247,12 +247,12 @@ export default function Promotion() {
             className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-6 pt-6 border-t border-white/10"
           >
             <div className="text-center sm:text-left">
-              <div className="text-white/50 text-sm mb-1">Total 4 cajas</div>
+              <div className="text-white/50 text-sm mb-1">{t('summary_label')}</div>
               <div className="flex items-center gap-3">
                 <span className="text-3xl font-black text-white">$590</span>
                 <div className="flex items-center gap-1.5 px-3 py-1 rounded-full text-sm font-bold text-green-400" style={{ background: 'rgba(22,163,74,0.15)', border: '1px solid rgba(22,163,74,0.3)' }}>
-                  + 5ta Gratis
-                  <span className="text-green-400">($60 ahorro)</span>
+                  {t('savings_label')}
+                  <span className="text-green-400">{t('savings_amount')}</span>
                 </div>
               </div>
             </div>

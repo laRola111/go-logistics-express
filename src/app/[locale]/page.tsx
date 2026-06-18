@@ -4,6 +4,7 @@ import Hero from '@/components/sections/Hero';
 import Promotion from '@/components/sections/Promotion';
 import Stats from '@/components/sections/Stats';
 import Services from '@/components/sections/Services';
+import Pricing from '@/components/sections/Pricing';
 import Coverage from '@/components/sections/Coverage';
 import HowItWorks from '@/components/sections/HowItWorks';
 import Gallery from '@/components/sections/Gallery';
@@ -20,6 +21,7 @@ export default function HomePage() {
       <Promotion />
       <Stats />
       <Services />
+      <Pricing />
       <Coverage />
       <HowItWorks />
       <Gallery />

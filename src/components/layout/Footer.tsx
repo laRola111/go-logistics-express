@@ -7,7 +7,7 @@ import { fadeInUp, staggerContainer, viewportConfig } from '@/lib/animations';
 import Image from 'next/image';
 
 const footerServices = ['s1', 's2', 's3', 's4', 's5'] as const;
-const texasCities = ['Austin', 'San Antonio', 'Houston', 'Dallas', 'Irving', 'Round Rock', 'Georgetown', 'San Marcos'];
+const texasCities = ['Austin', 'San Antonio', 'Houston', 'Dallas', 'Irving', 'Round Rock', 'Georgetown', 'San Marcos', 'Pflugerville'];
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -136,7 +136,7 @@ export default function Footer() {
               className="mt-6 w-full py-3 rounded-xl text-sm font-semibold text-white text-center btn-magnetic"
               style={{ background: 'linear-gradient(135deg, #D72638, #b01e2d)' }}
             >
-              Agenda tu Recolección
+              {t('cta')}
             </motion.button>
           </motion.div>
         </motion.div>

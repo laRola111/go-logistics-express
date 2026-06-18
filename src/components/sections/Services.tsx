@@ -90,7 +90,7 @@ export default function Services() {
             style={{ background: 'rgba(11,46,99,0.08)', color: '#0B2E63', border: '1px solid rgba(11,46,99,0.1)' }}
           >
             <Package size={14} />
-            Logística Internacional
+            {t('badge')}
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-black text-[#111827] mb-4 text-balance">
             {t('title')}
